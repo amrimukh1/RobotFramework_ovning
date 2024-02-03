@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-02T15:20:47.125292" rpa="false" schemaversion="5">
 <suite id="s1" name="Test" source="C:\Users\amrim\OneDrive\Documents\project\RobotFramework_ovning\Test.robot">
 <test id="s1-t1" name="Testa Login funktionalitet for automationPlayground" line="5">
@@ -62,17 +64,24 @@
 </test>
 <doc>test for selenium.com</doc>
 <status status="PASS" start="2024-02-02T15:20:47.127223" elapsed="27.345331"/>
+
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
+
+<stat pass="1" fail="0" skip="0">fyla kundens information</stat>
+
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
+
+<msg time="2024-02-03T22:36:57.353985" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+
 </errors>
 </robot>
