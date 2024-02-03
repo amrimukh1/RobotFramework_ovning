@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-03T22:36:28.971837" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="D:\GitProjects\robotFramework\RobotFramework_ovning\Test.robot">
+<test id="s1-t1" name="Övning-2-Robotframework &amp; Selenium" line="9">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>1</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-02-03T22:36:29.376441" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:29.377438" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-03T22:36:29.377438" elapsed="2.119301"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:31.497735" level="INFO">Opening url 'https://automationplayground.com/crm/add-customer.html'</msg>
+<arg>https://automationplayground.com/crm/add-customer.html</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-02-03T22:36:31.497735" elapsed="2.378424"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:33.876743" level="INFO">Typing text 'sara@gmail.com' into text field '//input[@id='EmailAddress']'.</msg>
+<arg>//input[@id='EmailAddress']</arg>
+<arg>sara@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:33.876743" elapsed="3.259436"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:37.139809" level="INFO">Typing text 'sara' into text field '//input[@id='FirstName']'.</msg>
+<arg>//input[@id='FirstName']</arg>
+<arg>sara</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:37.137815" elapsed="3.315224"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:40.456704" level="INFO">Typing text 'Ali' into text field '//input[@id='LastName']'.</msg>
+<arg>//input[@id='LastName']</arg>
+<arg>Ali</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:40.454660" elapsed="3.256876"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:43.716093" level="INFO">Typing text 'Warsw' into text field '//input[@id='City']'.</msg>
+<arg>//input[@id='City']</arg>
+<arg>Warsw</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:43.713523" elapsed="3.203044"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:46.917582" level="INFO">Selecting options from selection list '//select[@id='StateOrRegion']' by label Georgia.</msg>
+<arg>//select[@id='StateOrRegion']</arg>
+<arg>Georgia</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-02-03T22:36:46.916567" elapsed="8.274262"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:55.193350" level="INFO">Clicking element '//input[@value='female']'.</msg>
+<arg>//input[@value='female']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:55.192349" elapsed="2.159598"/>
+</kw>
+<kw name="Press Key" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:57.353985" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<arg>//button[normalize-space()='Submit']</arg>
+<arg>Submit</arg>
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<status status="PASS" start="2024-02-03T22:36:57.352992" elapsed="2.172150"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-03T22:36:59.527890" level="INFO">Clicking button '//button[normalize-space()='Submit']'.</msg>
+<arg>//button[normalize-space()='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-03T22:36:59.526896" elapsed="5.424148"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Success! New customer added.</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-02-03T22:37:04.952752" elapsed="1.082947"/>
+</kw>
+<doc>Övning-2-Robotframework &amp; Selenium</doc>
+<tag>fyla kundens information</tag>
+<status status="PASS" start="2024-02-03T22:36:29.373762" elapsed="36.663589"/>
+</test>
+<doc>test for selenium.com</doc>
+<status status="PASS" start="2024-02-03T22:36:28.975827" elapsed="37.064476"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">fyla kundens information</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-03T22:36:57.353985" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+</errors>
+</robot>
