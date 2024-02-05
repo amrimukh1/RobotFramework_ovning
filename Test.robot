@@ -16,6 +16,6 @@ Testa Login funktionalitet for automationPlayground
     Wait Until Page Contains    Our Happy Customers
     #Capture Page Screenshot
     Click Link    //a[@id='new-customer']
-    
+
 
 
