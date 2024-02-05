@@ -1,87 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-02T15:20:47.125292" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-05T09:53:25.359020" rpa="false" schemaversion="5">
 <suite id="s1" name="Test" source="C:\Users\amrim\OneDrive\Documents\project\RobotFramework_ovning\Test.robot">
-<test id="s1-t1" name="Testa Login funktionalitet for automationPlayground" line="5">
+<test id="s1-t1" name="Testa Login funktionalitet for automationPlayground" line="6">
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
 <arg>1</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2024-02-02T15:20:47.323322" elapsed="0.001005"/>
+<status status="PASS" start="2024-02-05T09:53:25.682803" elapsed="0.000000"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:20:47.324327" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
+<msg time="2024-02-05T09:53:25.683802" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
 <arg>browser=Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-02-02T15:20:47.324327" elapsed="1.724106"/>
+<status status="PASS" start="2024-02-05T09:53:25.683802" elapsed="2.652544"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:20:49.050983" level="INFO">Opening url 'https://automationplayground.com/crm/'</msg>
+<msg time="2024-02-05T09:53:28.337345" level="INFO">Opening url 'https://automationplayground.com/crm/'</msg>
 <arg>https://automationplayground.com/crm/</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-02-02T15:20:49.048433" elapsed="4.524086"/>
+<status status="PASS" start="2024-02-05T09:53:28.336346" elapsed="1.743699"/>
 </kw>
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:20:53.573574" level="INFO">Clicking link '//a[@id='SignIn']'.</msg>
+<msg time="2024-02-05T09:53:30.080981" level="INFO">Clicking link '//a[@id='SignIn']'.</msg>
 <arg>//a[@id='SignIn']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-02T15:20:53.573574" elapsed="3.312828"/>
+<status status="PASS" start="2024-02-05T09:53:30.080045" elapsed="3.265406"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:20:56.886913" level="INFO">Typing text 'amrimukh2@gmail.com' into text field 'xpath = //input[@id='email-id']'.</msg>
+<msg time="2024-02-05T09:53:33.345451" level="INFO">Typing text 'amrimukh2@gmail.com' into text field 'xpath = //input[@id='email-id']'.</msg>
 <arg>xpath = //input[@id='email-id']</arg>
 <arg>amrimukh2@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-02T15:20:56.886913" elapsed="3.210081"/>
+<status status="PASS" start="2024-02-05T09:53:33.345451" elapsed="3.154768"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:21:00.098039" level="INFO">Typing password into text field 'xpath = //input[@id='password']'.</msg>
-<msg time="2024-02-02T15:21:02.139460" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2024-02-05T09:53:36.501238" level="INFO">Typing password into text field 'xpath = //input[@id='password']'.</msg>
+<msg time="2024-02-05T09:53:38.559500" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>xpath = //input[@id='password']</arg>
 <arg>12345</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-02T15:21:00.098039" elapsed="3.132641"/>
+<status status="PASS" start="2024-02-05T09:53:36.500219" elapsed="3.110723"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:21:03.231693" level="INFO">Clicking button '//button[@id='submit-id']'.</msg>
+<msg time="2024-02-05T09:53:39.610942" level="INFO">Clicking button '//button[@id='submit-id']'.</msg>
 <arg>//button[@id='submit-id']</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-02T15:21:03.230680" elapsed="6.706884"/>
+<status status="PASS" start="2024-02-05T09:53:39.610942" elapsed="5.462094"/>
 </kw>
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Our Happy Customers</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-02-02T15:21:09.937564" elapsed="1.015543"/>
+<status status="PASS" start="2024-02-05T09:53:45.073546" elapsed="1.019515"/>
 </kw>
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-02-02T15:21:10.953107" level="INFO">Clicking link '//a[@id='new-customer']'.</msg>
+<msg time="2024-02-05T09:53:46.094083" level="INFO">Clicking link '//a[@id='new-customer']'.</msg>
 <arg>//a[@id='new-customer']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-02T15:21:10.953107" elapsed="3.518908"/>
+<status status="PASS" start="2024-02-05T09:53:46.093061" elapsed="3.378290"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:53:49.472371" level="INFO">Typing text 'sara@gmail.com' into text field '//input[@id='EmailAddress']'.</msg>
+<arg>//input[@id='EmailAddress']</arg>
+<arg>sara@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:53:49.471351" elapsed="3.102317"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:53:52.574685" level="INFO">Typing text 'sara' into text field '//input[@id='FirstName']'.</msg>
+<arg>//input[@id='FirstName']</arg>
+<arg>sara</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:53:52.573668" elapsed="3.094341"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:53:55.669034" level="INFO">Typing text 'Ali' into text field '//input[@id='LastName']'.</msg>
+<arg>//input[@id='LastName']</arg>
+<arg>Ali</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:53:55.668009" elapsed="3.091391"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:53:58.759911" level="INFO">Typing text 'Warsw' into text field '//input[@id='City']'.</msg>
+<arg>//input[@id='City']</arg>
+<arg>Warsw</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:53:58.759911" elapsed="3.100245"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:54:01.861171" level="INFO">Selecting options from selection list '//select[@id='StateOrRegion']' by label Georgia.</msg>
+<arg>//select[@id='StateOrRegion']</arg>
+<arg>Georgia</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-02-05T09:54:01.860156" elapsed="8.118547"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:54:09.980240" level="INFO">Clicking element '//input[@value='female']'.</msg>
+<arg>//input[@value='female']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:54:09.979218" elapsed="2.054080"/>
+</kw>
+<kw name="Press Key" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:54:12.033815" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<arg>//button[normalize-space()='Submit']</arg>
+<arg>Submit</arg>
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<status status="PASS" start="2024-02-05T09:54:12.033815" elapsed="2.062490"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-05T09:54:14.097843" level="INFO">Clicking button '//button[normalize-space()='Submit']'.</msg>
+<arg>//button[normalize-space()='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-05T09:54:14.096822" elapsed="5.297366"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Success! New customer added.</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-02-05T09:54:19.394188" elapsed="1.018976"/>
 </kw>
 <doc>Test visar posive login scenarion för automationPlayground</doc>
-<status status="PASS" start="2024-02-02T15:20:47.322296" elapsed="27.150258"/>
+<status status="PASS" start="2024-02-05T09:53:25.681803" elapsed="54.731361"/>
 </test>
 <doc>test for selenium.com</doc>
-<status status="PASS" start="2024-02-02T15:20:47.127223" elapsed="27.345331"/>
-
+<status status="PASS" start="2024-02-05T09:53:25.362021" elapsed="55.053163"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-
-<stat pass="1" fail="0" skip="0">fyla kundens information</stat>
-
 </tag>
 <suite>
 <stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
-
-<msg time="2024-02-03T22:36:57.353985" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
-
+<msg time="2024-02-05T09:54:12.033815" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
 </errors>
 </robot>
